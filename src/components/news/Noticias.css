@@ -1,0 +1,41 @@
+.container-Noticia{
+    margin: 100px 0;
+}
+
+
+
+
+.container-tarjeta{
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.image-noticia {
+    width: 100%;
+    height: 200px;
+    overflow: hidden ;
+    border-radius: 16px;
+    margin-bottom: 20px;
+
+}
+
+.image-noticia img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container-Noticia h3{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.fecha,
+.autor {
+    font-size: 14px;
+    color:gray
+}

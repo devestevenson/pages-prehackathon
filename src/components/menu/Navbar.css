@@ -1,0 +1,46 @@
+.nav {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    /* background-color: springgreen; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.logo img {
+    width: 100%;
+}
+.navbox {
+    display: flex;
+    gap: 20px;
+}
+.navbox a {
+    color: black;
+    transition: 400ms;
+}
+.navbox a:hover {
+    color: springgreen;
+}
+.navbox a:focus {
+    color: springgreen;
+}
+button {
+    padding: 10px 20px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 0;
+    background: springgreen;
+    background: -webkit-linear-gradient(to right, #047AF3, springgreen);
+    background: linear-gradient(to right, #047AF3, springgreen);
+    color: white;
+    transition: 300ms;
+}
+button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: springgreen;
+    padding: 0 80px;
+}
+
+.footer p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer p span{
+    font-weight: normal
+}
+
+.redsocial img{
+    width: 36px;
+    margin: 0 16px;
+
+}

@@ -1,0 +1,32 @@
+.container-User {
+    margin: 50px 0;
+}
+.users{
+    width: 400px;
+    height: 140px;
+    background: #047AF3;
+    background: -webkit-linear-gradient(to right, springgreen, #047AF3);
+    background: linear-gradient(to right, springgreen, #047AF3);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    padding:  0 30px;
+
+}
+
+.profesion{
+color: gray;
+font-weight: lighter;
+}
+
+.foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 5px solid rgba(0,0,0,0.3);
+}
+
