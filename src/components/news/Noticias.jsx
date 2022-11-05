@@ -5,9 +5,9 @@ const Noticias = () => {
   const [noticias, setNoticias] = useState([]);
 
   const getNoticias = async () => {
-    let response = await fetch("url");
+    let response = await fetch("https://pre-hackathon-dvag.herokuapp.com/api/novelties/");
     let data = await response.json();
-    setNoticias(data);
+    setNoticias(data.novelties);
   };
   useEffect(() => {
     getNoticias();
@@ -24,19 +24,19 @@ const Noticias = () => {
         </div>
 
         <div className="container-Article">
-          {/* {noticias.map((noticia) => (
+          {noticias.map((noticia) => (
             <div className="text">
               <h3>{noticia.title}</h3>
-              <p className="fecha">{noticia.fecha}</p>
-              <p className="autor">{noticia.autor}</p>
+              <p className="fecha">{noticia.createdAt}</p>
+              <p className="autor">{noticia.fullname}</p>
               <p className="description">{noticia.description}</p>
             </div>
-          ))} */}
+          ))}
         </div>
-        <h3>titulo</h3>
+        {/* <h3>titulo</h3>
         <p className="fecha">05-20-22</p>
         <p className="autor">Pipito torres</p>
-        <p className="descripcion"> grupo feliz</p>
+        <p className="descripcion"> grupo feliz</p> */}
       </div>
     </div>
   );
