@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pages-prehackathon/static/css/main.11f7261e.css",
+    "main.js": "/pages-prehackathon/static/js/main.1321dfa2.js",
+    "static/media/imagen.jpg": "/pages-prehackathon/static/media/imagen.3c5d69548d203187c9b0.jpg",
+    "static/media/favicon.png": "/pages-prehackathon/static/media/favicon.4c62703bdbdd0d195aac.png",
+    "static/media/github.png": "/pages-prehackathon/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/linkedin.png": "/pages-prehackathon/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/pages-prehackathon/index.html",
+    "main.11f7261e.css.map": "/pages-prehackathon/static/css/main.11f7261e.css.map",
+    "main.1321dfa2.js.map": "/pages-prehackathon/static/js/main.1321dfa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f7261e.css",
+    "static/js/main.1321dfa2.js"
+  ]
+}
